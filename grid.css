@@ -1,0 +1,42 @@
+@media screen and (min-width:1024px) {
+        .casa{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 10% 5% 25% 25% 25% 10%;
+        grid-area: 
+
+
+}
+.inicio{
+    display: flex;
+    flex-direction: column;
+    height: 200;
+
+}
+.celular{
+
+}
+.aplicativos{
+
+}
+.controle{
+
+}
+.jogos{
+
+}
+.fortnite{
+
+}
+.pubg{
+
+}
+.slack{
+
+}
+.CSGO{
+
+}
+.whatsapp{
+
+}

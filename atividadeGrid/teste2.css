@@ -1,0 +1,56 @@
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "Fortnite Fortnite PUBG"
+    "Fortnite Fortnite Slack"
+    "Categorias CSGO Whatsapp";
+}
+.banner{
+    background-image: url(Fortnite-meta-1-scaled.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-area: Fortnite;
+}
+.menu{
+    background-image: url(pugbnamed.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-area: PUGB;
+
+}
+.conteudo1{
+    background-image: url(slack_hash_256.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-area: Slack;
+
+}
+.conteudo2{
+    background-image: url();
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-area:Categorias ;
+}
+.conteudo3{
+    background-image: url(1562177878387-a6f1c618-e6dd-4b88-8794-aa01048ea2d9.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-area:CSGO ;
+}
+.rodape{
+    background-image: url(600514.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-area:Whatsapp ;
+}   
+
